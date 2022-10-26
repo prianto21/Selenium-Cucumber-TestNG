@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.amazon.test.HomePageTest">
+      <class name="com.tutorialsninja.test.HomePageTest">
         <methods>
+          <include name="LogintestWithValidCredetial"/>
+          <include name="preSetup"/>
+          <include name="postCleanUp"/>
           <include name="setUp"/>
           <include name="cleanUp"/>
-          <include name="postCleanUp"/>
-          <include name="preSetup"/>
-          <include name="test_01"/>
         </methods>
-      </class> <!-- com.amazon.test.HomePageTest -->
+      </class> <!-- com.tutorialsninja.test.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
