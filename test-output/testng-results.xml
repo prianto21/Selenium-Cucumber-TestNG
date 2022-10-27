@@ -1,32 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-26T21:35:20 WIB" name="Default suite" finished-at="2022-10-26T21:35:25 WIB" duration-ms="4874">
+  <suite started-at="2022-10-27T22:27:55 WIB" name="Default suite" finished-at="2022-10-27T22:28:03 WIB" duration-ms="7342">
     <groups>
     </groups>
-    <test started-at="2022-10-26T21:35:20 WIB" name="Default test" finished-at="2022-10-26T21:35:25 WIB" duration-ms="4874">
+    <test started-at="2022-10-27T22:27:55 WIB" name="Default test" finished-at="2022-10-27T22:28:03 WIB" duration-ms="7342">
       <class name="com.tutorialsninja.test.HomePageTest">
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2cdd0d4b]" started-at="2022-10-26T21:35:20 WIB" name="preSetup" finished-at="2022-10-26T21:35:23 WIB" duration-ms="3163" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:27:55 WIB" name="setReport" finished-at="2022-10-27T22:27:55 WIB" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:27:55 WIB" name="preSetup" finished-at="2022-10-27T22:27:58 WIB" duration-ms="2812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2cdd0d4b]" started-at="2022-10-26T21:35:23 WIB" name="setUp" finished-at="2022-10-26T21:35:23 WIB" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:27:58 WIB" name="setUp" finished-at="2022-10-27T22:27:58 WIB" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LogintestWithValidCredetial()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2cdd0d4b]" started-at="2022-10-26T21:35:23 WIB" name="LogintestWithValidCredetial" finished-at="2022-10-26T21:35:25 WIB" duration-ms="1654" status="PASS">
+        <test-method signature="test1()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:27:58 WIB" name="test1" finished-at="2022-10-27T22:27:58 WIB" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LogintestWithValidCredetial -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2cdd0d4b]" started-at="2022-10-26T21:35:25 WIB" name="cleanUp" finished-at="2022-10-26T21:35:25 WIB" duration-ms="1" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:27:58 WIB" name="cleanUp" finished-at="2022-10-27T22:27:58 WIB" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="postCleanUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2cdd0d4b]" started-at="2022-10-26T21:35:25 WIB" name="postCleanUp" finished-at="2022-10-26T21:35:25 WIB" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:27:58 WIB" name="setUp" finished-at="2022-10-27T22:27:58 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test2()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:27:58 WIB" name="test2" finished-at="2022-10-27T22:27:58 WIB" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:27:58 WIB" name="cleanUp" finished-at="2022-10-27T22:27:58 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:27:58 WIB" name="setUp" finished-at="2022-10-27T22:27:58 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test3()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:27:58 WIB" name="test3" finished-at="2022-10-27T22:27:58 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:27:58 WIB" name="cleanUp" finished-at="2022-10-27T22:27:58 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="verifyLoginForm()[pri:1, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:27:58 WIB" name="verifyLoginForm" finished-at="2022-10-27T22:28:01 WIB" duration-ms="3034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginForm -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:27:58 WIB" name="setUp" finished-at="2022-10-27T22:27:58 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:28:01 WIB" name="cleanUp" finished-at="2022-10-27T22:28:01 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:28:01 WIB" name="setUp" finished-at="2022-10-27T22:28:01 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LogintestWithValidCredetial()[pri:2, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:28:01 WIB" name="LogintestWithValidCredetial" finished-at="2022-10-27T22:28:03 WIB" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintestWithValidCredetial -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:28:03 WIB" name="cleanUp" finished-at="2022-10-27T22:28:03 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="postCleanUp()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:28:03 WIB" name="postCleanUp" finished-at="2022-10-27T22:28:03 WIB" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCleanUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.test.HomePageTest@2beee7ff]" started-at="2022-10-27T22:28:03 WIB" name="tearDown" finished-at="2022-10-27T22:28:03 WIB" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.tutorialsninja.test.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

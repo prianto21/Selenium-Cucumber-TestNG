@@ -50,9 +50,9 @@ public class CmnDriver {
 	}
 
 	public void closeBrowser() {
-//		if(driver != null) {
-//			driver.quit();
-//		}
+		if(driver != null) {
+			driver.quit();
+		}
 	}
 	
 	

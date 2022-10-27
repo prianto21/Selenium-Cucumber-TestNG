@@ -5,7 +5,9 @@
     <classes>
       <class name="com.tutorialsninja.test.HomePageTest">
         <methods>
-          <include name="LogintestWithValidCredetial"/>
+          <include name="verifyLoginForm"/>
+          <include name="tearDown"/>
+          <include name="setReport"/>
           <include name="preSetup"/>
           <include name="postCleanUp"/>
           <include name="setUp"/>
