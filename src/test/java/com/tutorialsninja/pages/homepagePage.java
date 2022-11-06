@@ -55,6 +55,18 @@ public class homepagePage {
 	public void verifyHasLogin() {
 		Assert.assertTrue(MyAccountTextHasLogin.isDisplayed());
 	}
+	
+	@FindBy(xpath = "//div[@id='content']//div[1]//div[1]//div[3]//button[1]//span[1]")
+	WebElement AddToCart_btn;
+	public void AddToCart() {
+		AddToCart_btn.click();
+	}
+	
+	@FindBy(xpath = "//div[text()=' Success: You have added ']")
+	WebElement VerifySuccesAdd;
+	public void NotifSuccesAddItem() {
+	 VerifySuccesAdd.isDisplayed();
+	}
 }
 
 

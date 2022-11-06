@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tutorialsninja.test.HomePageTest">
+      <class name="com.tutorialsninja.test.AddToCartTest">
         <methods>
-          <include name="verifyLoginForm"/>
           <include name="tearDown"/>
+          <include name="AddToCart"/>
           <include name="setReport"/>
           <include name="preSetup"/>
           <include name="postCleanUp"/>
           <include name="setUp"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- com.tutorialsninja.test.HomePageTest -->
+      </class> <!-- com.tutorialsninja.test.AddToCartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
